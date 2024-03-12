@@ -1,20 +1,19 @@
 {
-    "name": "mohamedsabil83/filament-forms-tinyeditor",
-    "description": "A TinyMce editor component for Filament",
+    "name": "arekaev/filament-forms-ckeditor",
+    "description": "A CKEditor component for Filament",
     "keywords": [
         "laravel",
         "filament",
         "forms",
-        "tinyeditor",
-        "tinymce"
+        "ckeditor"
     ],
-    "homepage": "https://github.com/mohamedsabil83/filament-forms-tinyeditor",
+    "homepage": "https://github.com/arekaev/filament-forms-ckeditor",
     "license": "MIT",
     "authors": [
         {
-            "name": "MohamedSabil83",
-            "email": "me@mohamedsabil83.com",
-            "role": "Developer"
+            "name": "Aleksei Arekaev",
+            "email": "arekaev89@gmail.com",
+            "role": "PHP-Developer"
         }
     ],
     "require": {
@@ -38,12 +37,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Mohamedsabil83\\FilamentFormsTinyeditor\\": "src"
+            "Arekaev\\FilamentFormsCKEditor\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Mohamedsabil83\\FilamentFormsTinyeditor\\Tests\\": "tests"
+            "Arekaev\\FilamentFormsCKEditor\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -63,7 +62,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Mohamedsabil83\\FilamentFormsTinyeditor\\FilamentFormsTinyeditorServiceProvider"
+                "Arekaev\\FilamentFormsCKEditor\\FilamentFormsCKEditorServiceProvider"
             ]
         }
     },

@@ -5,7 +5,7 @@ title: Usage & Customization
 ## Usage
 
 ```php
-use Mohamedsabil83\FilamentFormsTinyeditor\Components\TinyEditor;
+use Arekaev\FilamentFormsCKEditor\Components\TinyEditor;
 
 TinyEditor::make('content')
 ```
@@ -27,7 +27,7 @@ TinyEditor::make('content')->simple()
 You can add many editors with differnt toolbars for each of them. First, publish the configuration files:
 
 ```bash
-php artisan vendor:publish --tag="filament-forms-tinyeditor-config"
+php artisan vendor:publish --tag="filament-forms-ckeditor-config"
 ```
 
 Each profile looks like the following: (You can add as many you want):
@@ -79,7 +79,7 @@ to
 There is no restriction of configs, you can add everything in here it will be converted and added to tinymce.init() function
 
 ```php
-// config/filament-forms-tinyeditor.php
+// config/filament-forms-ckeditor.php
 
 'simple' => [
     'plugins' => 'directionality emoticons link wordcount',
